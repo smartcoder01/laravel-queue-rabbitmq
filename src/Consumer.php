@@ -69,6 +69,20 @@ class Consumer extends Worker
      *
      * @throws Throwable
      */
+    public function run($connectionName, $queue, WorkerOptions $options)
+    {
+        return $this->daemon($connectionName, $queue, $options);
+    }
+
+    /**
+     * Listen to the given queue in a loop.
+     *
+     * @param  string  $connectionName
+     * @param  string  $queue
+     * @return int
+     *
+     * @throws Throwable
+     */
     public function daemon($connectionName, $queue, WorkerOptions $options)
     {
         if ($this->supportsAsyncSignals()) {

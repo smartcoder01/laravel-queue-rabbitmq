@@ -9,9 +9,13 @@ RabbitMQ Queue driver for Laravel
 
 Only the latest version will get new features. Bug fixes will be provided using the following scheme:
 
-| Package Version | Laravel Version | Bug Fixes Until  |                                                                                             |
-|-----------------|-----------------|------------------|---------------------------------------------------------------------------------------------|
-| 13              | 9               | August 8th, 2023 | [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
+| Package Version | Laravel Version | Bug Fixes Until    |                                                                                             |
+|-----------------|-----------------|--------------------|---------------------------------------------------------------------------------------------|
+| 16              | 13              | April 16th, 2027   | [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
+| 15              | 12              | February 24th, 2026| [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
+| 14              | 11              | March 12th, 2025   | [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
+| 13              | 10              | February 14th, 2024| [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
+| 12              | 9               | August 8th, 2023   | [Documentation](https://github.com/vyuldashev/laravel-queue-rabbitmq/blob/master/README.md) |
 
 ## Installation
 
